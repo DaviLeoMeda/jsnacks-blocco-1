@@ -28,16 +28,49 @@
 // blocco 3
 
 
-let number = prompt("Enter a number");
-let number1 = prompt("Enter a number");
-let number2 = prompt("Enter a number");
-let number3 = prompt("Enter a number");
-let number4 = prompt("Enter a number");
-let number5 = prompt("Enter a number");
-let number6 = prompt("Enter a number");
-let number7 = prompt("Enter a number");
-let number8 = prompt("Enter a number");
-let number9 = prompt("Enter a number");
-let number10 = prompt("Enter a number");
 
-console.log(number, number1, number2, number3, number4, number5, number6, number7, number8, number9, number10);
+// let adding = 0
+
+
+// for (let i = 0; i <= 10; i++) {
+//     const number = parseInt(prompt("Enter a number"));
+//     console.log(number);
+
+//     adding += number;
+
+//     console.log(adding);
+
+// }
+
+//  Blocco 4
+
+// let invited [""]
+
+// for (let i = 0; i <= 6; i++) {
+
+//     inviting[i] = prompt("Enter a name");
+//     console.log(invited[i]);
+
+//     if (inviting[i] == "invited") {
+
+//         console.log(`L'invitato è presente nella lista`);
+
+//     } else {
+//         invited.push(inviting[i]);
+//     }
+// }
+
+// BLocco 5
+
+let numberarray = [];
+
+for (let i = 0; i < 6; i++) {
+    const numero = parseFloat(prompt("Enter a number"));
+    console.log(numero[i]);
+
+    if (numero % 2 != 0) {
+        numberarray.push(numero);
+
+    }
+}
+console.log(numberarray);
