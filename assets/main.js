@@ -10,8 +10,8 @@
 //     console.log(numb2 + " é maior que " + numb1)
 // }
 
-const word1 = prompt("Enter a word");
-const word2 = prompt("Enter another word");
+// const word1 = prompt("Enter a word");
+// const word2 = prompt("Enter another word");
 
 
 // console.log(word1, word2);
