@@ -13,15 +13,13 @@
 const word1 = prompt("Enter a word");
 const word2 = prompt("Enter another word");
 
-wordOne = word1.length.value;
-wordtwo = word2.length.value;
 
 console.log(word1, word2);
 
-if (wordOne == wordtwo) {
-    console.log(wordOne + " é uguale a " + wordtwo);
-} else if (wordOne < wordtwo) {
-    console.log(wordOne + " é minore di " + wordtwo);
-} else if (wordtwo < wordOne) {
-    console.log(wordtwo + " é minore di " + wordOne);
+if (word1.length == word2.length) {
+    console.log(word1 + " é uguale a " + word2);
+} else if (word1.length < word2.length) {
+    console.log(word1 + " é minore di " + word2);
+} else if (word2.length < word1.length) {
+    console.log(word2 + " é minore di " + word1);
 }
